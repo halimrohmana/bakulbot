@@ -2188,9 +2188,10 @@ module.exports = async (sock, m) => {
                 const limitt = isPremium || isOwner ? 'Unlimited' : user.getLimit(m.sender, _user)
                 const limitg = user.getLimit(m.sender, _user)
                 let templateButtons = [
-                    { urlButton: { displayText: "Source Code", url: "https://bakulcilok.6te.net" } },
-                    { urlButton: { displayText: "Main APIs", url: "https://bakul-api.herokuapp.com/docs" } },
+                    { urlButton: { displayText: "Donate", url: "https://saweria.co/bakulcilok" } },
+                    { urlButton: { displayText: "Official Website", url: "https://bakulcilok.6te.net/" } },
                     { quickReplyButton: { displayText: "Owner", id: ".owner" } }
+                    { quickReplyButton: { displayText: "Admin", id: ".owner" } }
                 ]
                 let templateMessage = {
                     image: { url: 'https://telegra.ph/file/ae32138a182cc0109eadd.jpg' },
