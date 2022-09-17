@@ -2190,7 +2190,7 @@ module.exports = async (sock, m) => {
                 let templateButtons = [
                     { urlButton: { displayText: "Donate", url: "https://saweria.co/bakulcilok" } },
                     { urlButton: { displayText: "Official Website", url: "https://bakulcilok.6te.net/" } },
-                    { quickReplyButton: { displayText: "Owner", id: ".owner" } }
+                    { quickReplyButton: { displayText: "Owner", id: ".owner" } },
                     { quickReplyButton: { displayText: "Admin", id: ".owner" } }
                 ]
                 let templateMessage = {
